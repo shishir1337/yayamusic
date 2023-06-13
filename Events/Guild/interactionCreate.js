@@ -36,19 +36,19 @@ module.exports = {
           result.items.forEach(x => { choice.push({ name: x.name, value: x.url }) })
         })
         return await interaction.respond(choice).catch(() => { });
-      } else if (interaction.commandName == "waifu-play") {
+      } else if (interaction.commandName == "yaya-play") {
         let choice = [];
         await ytsr(interaction.options.getString("input") || Random, { safeSearch: true, limit: 10 }).then(result => {
           result.items.forEach(x => { choice.push({ name: x.name, value: x.url }) })
         })
         return await interaction.respond(choice).catch(() => { });
-      } else if (interaction.commandName == "waifu-playtop") {
+      } else if (interaction.commandName == "yaya-playtop") {
         let choice = [];
         await ytsr(interaction.options.getString("song") || Random, { safeSearch: true, limit: 10 }).then(result => {
           result.items.forEach(x => { choice.push({ name: x.name, value: x.url }) })
         })
         return await interaction.respond(choice).catch(() => { });
-      } else if (interaction.commandName == "waifu-playskip") {
+      } else if (interaction.commandName == "yaya-playskip") {
         let choice = [];
         await ytsr(interaction.options.getString("song") || Random, { safeSearch: true, limit: 10 }).then(result => {
           result.items.forEach(x => { choice.push({ name: x.name, value: x.url }) })

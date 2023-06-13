@@ -17,7 +17,7 @@ module.exports = {
                 .setDescription(`Hey <@${interaction.targetUser.id}>!, <@${interaction.user.id}> just wave at you!`)
                 .setImage(body.url)
                 .setTimestamp()
-                .setFooter({ text: `${client.user.username} | waifumusic.ml` })
+                .setFooter({ text: `${client.user.username} | shishir1337.com` })
             interaction.reply({ embeds: [embed] })
         } catch (e) {
             console.log(e)

@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-previous', // name of the command
+  name: 'yaya-previous', // name of the command
   description: 'Plays the previous song in the queue.', // description of the command
   usage: '/previous', // usage of the cmd
   category: 'Queue', // cmd category

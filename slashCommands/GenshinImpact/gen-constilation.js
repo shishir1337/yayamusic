@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-constellation', // name of the command
+    name: 'yaya-constellation', // name of the command
     description: 'Gives you a information about the character', // description of the command
     category: 'Genshin', // cmd category
     developer: false, // false if the command is for public

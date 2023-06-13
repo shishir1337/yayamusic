@@ -7,9 +7,9 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-setprefix', // name of the command
+    name: 'yaya-setprefix', // name of the command
     description: 'Set custom prefix', // description of the command
-    usage: '/waifu-setprefix [w?]', // usage of the cmd
+    usage: '/yaya-setprefix [w?]', // usage of the cmd
     category: 'Settings', // cmd category
     developer: false, // false if the command is for public
     type: ApplicationCommandType.ChatInput, // chatinput

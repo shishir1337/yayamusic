@@ -10,9 +10,9 @@ const wbc = new WebhookClient({
 const GVoice = new Database("./databases/models/voice.json", { databaseInObject: true });
 
 module.exports = {
-    name: 'waifu-247', // name of the command
+    name: 'yaya-247', // name of the command
     description: 'Enable never leave the VC!', // description of the command
-    usage: '/waify-247', // usage of the cmd
+    usage: '/yaya-247', // usage of the cmd
     category: 'Info', // cmd category
     developer: false, // false if the command is for public
     type: ApplicationCommandType.ChatInput, // chatinput

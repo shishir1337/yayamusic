@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-skipto', // name of the command
+  name: 'yaya-skipto', // name of the command
   description: 'Skip to a specific song in queue', // description of the command
   usage: '/skipto [queue_song_position]', // usage of the cmd
   category: 'Queue', // cmd category

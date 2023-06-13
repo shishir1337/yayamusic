@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-skip', // name of the command
+  name: 'yaya-skip', // name of the command
   description: 'Skip the current song', // description of the command
   usage: '/skip', // usage of the cmd
   category: 'Music', // cmd category

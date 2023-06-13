@@ -8,7 +8,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-lyrics',
+  name: 'yaya-lyrics',
   description: 'Display/Find the lyrics of the song',
   usage: '/lyrics <song>', // usage of the cmd
   category: 'Music', // cmd category

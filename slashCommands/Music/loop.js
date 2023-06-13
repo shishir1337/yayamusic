@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-loop',
+  name: 'yaya-loop',
   description: 'Loop the current song.',
   usage: '/loop [type]', // usage of the cmd
   category: 'Music', // cmd category

@@ -7,9 +7,9 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-setvolume', // name of the command
+  name: 'yaya-setvolume', // name of the command
   description: 'Set the default volume of the server', // description of the command
-  usage: '/waifu-setvolume', // usage of the cmd
+  usage: '/yaya-setvolume', // usage of the cmd
   category: 'Settings', // cmd category
   developer: false, // false if the command is for public
   type: ApplicationCommandType.ChatInput, // chatinput

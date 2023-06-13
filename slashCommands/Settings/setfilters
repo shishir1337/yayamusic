@@ -4,7 +4,7 @@ const { check_if_dj } = require("../../Util/functions");
 const FiltersSettings = require("../../Config/filters.json");
 
 module.exports = {
-  name: 'waifu-setfilter', // name of the command
+  name: 'yaya-setfilter', // name of the command
   description: 'Sets (Overwrides) all Filters', // description of the command
   developer: false, // false if the command is for public
   type: ApplicationCommandType.ChatInput, // chatinput

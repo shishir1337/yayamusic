@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-queue', // name of the command
+  name: 'yaya-queue', // name of the command
   description: 'Display the list of songs in the queue.', // description of the command
   usage: '/queue', // usage of the cmd
   category: 'Queue', // cmd category

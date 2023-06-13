@@ -7,9 +7,9 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-pics', // name of the command
+    name: 'yaya-pics', // name of the command
     description: 'Get waifu pics with options', // description of the command
-    usage: '/waifu-pics <shinobu>', // usage of the cmd
+    usage: '/yaya-pics <shinobu>', // usage of the cmd
     category: 'Anime', // cmd category
     developer: false, // false if the command is for public
     type: ApplicationCommandType.ChatInput, // chatinput
@@ -46,7 +46,7 @@ module.exports = {
         }
     ], // options string
     execute: async (client, interaction) => {
-        wbc.send(`[slashCommand] :: **Waifu-pics used by ${interaction.user.tag} from ${interaction.guild.name}**`);
+        wbc.send(`[slashCommand] :: **yaya-pics used by ${interaction.user.tag} from ${interaction.guild.name}**`);
         const { member, guild, options } = interaction;
         const query = options.getString("characters");
         try {

@@ -8,7 +8,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-aniquote', // name of the command
+  name: 'yaya-aniquote', // name of the command
   description: 'Generate random anime quote', // description of the command
   category: 'Anime', // cmd category
   developer: false, // false if the command is for public

@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-volume', // name of the command
+    name: 'yaya-volume', // name of the command
     description: 'Changes the volume of the current song.', // description of the command
     usage: '/volume [amount]', // usage of the cmd
     category: 'Settings', // cmd category

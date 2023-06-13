@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-playtop', // name of the command
+  name: 'yaya-playtop', // name of the command
   description: 'Plays a Song/Playlist and adds it to the Top!', // description of the command
   usage: '/playstop [song_name]', // usage of the cmd
   category: 'Queue', // cmd category

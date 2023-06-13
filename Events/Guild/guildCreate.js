@@ -18,7 +18,7 @@ module.exports = {
         .setColor(client.important.MAIN_COLOR)
         .addFields(
           {
-            name: 'WaifuMusic',
+            name: 'YaYaMusic',
             value: `
     Name: ${guild.name}
     Guild ID: ${guild.id}
@@ -40,7 +40,7 @@ module.exports = {
     //         .setColor(client.important.MAIN_COLOR)
     //         .setTitle("Hey 👋, Thanks for inviting me to your server!")
     //         .setImage("https://giphy.com/gifs/AdRiVFBcGJ5iZRqUyG")
-    //         .setDescription("I'm WaifuMusic, I play Music for everyone in VC!")
+    //         .setDescription("I'm YaYaMusic, I play Music for everyone in VC!")
     //         .setFooter({ text: "Only the server owner can receive this message.", iconURL: "https://cdn.discordapp.com/avatars/1013477956905091144/eb31b5a2228f7ea5f79c8a3fdc56cb02.png" })
     //     ]
     //   });
@@ -55,7 +55,7 @@ module.exports = {
           new ButtonBuilder()
             .setLabel("Support")
             .setStyle(ButtonStyle.Link)
-            .setURL(`https://discord.gg/DhszDJGp7g`)
+            .setURL(`https://discord.gg/MMpHyP2px7`)
             .setEmoji("982760524863385701"),
           new ButtonBuilder()
             .setLabel("Support")
@@ -65,12 +65,12 @@ module.exports = {
         );
       const nembed = new EmbedBuilder()
         .setTitle("Thank you!")
-        .setDescription("Hi 👋 I'm WaifuMusic a Discord bot that plays music in VC!\nBelow is some of the basics information.")
+        .setDescription("Hi 👋 I'm YaYaMusic a Discord bot that plays music in VC!\nBelow is some of the basics information.")
         .setColor(client.important.MAIN_COLOR)
         .addFields(
           {
             name: "Slash",
-            value: "Slash commands, to start type on chat `/waifu-help` make sure the icon of the slash is the same as my icon.\n• Didn't appear? try to invite me again [click this.](https://discord.com/oauth2/authorize?client_id=1013477956905091144&permissions=2184563009&scope=bot%20applications.commands)"
+            value: "Slash commands, to start type on chat `/yaya-help` make sure the icon of the slash is the same as my icon.\n• Didn't appear? try to invite me again [click this.](https://discord.com/oauth2/authorize?client_id=1013477956905091144&permissions=2184563009&scope=bot%20applications.commands)"
           },
           {
             name: "Features:",

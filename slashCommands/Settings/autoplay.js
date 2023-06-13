@@ -9,7 +9,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-autoplay', // name of the command
+    name: 'yaya-autoplay', // name of the command
     description: 'Toggles autoplay from your guild', // description of the command
     usage: '/autoplay', // usage of the cmd
     category: 'Settings', // cmd category

@@ -8,7 +8,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-speed', // name of the command
+    name: 'yaya-speed', // name of the command
     description: 'Changes the Speed of the Song!', // description of the command
     usage: '/speed [amount]', // usage of the cmd
     category: 'Settings', // cmd category

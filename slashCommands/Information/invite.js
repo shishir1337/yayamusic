@@ -6,9 +6,9 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-invite', // name of the command
+    name: 'yaya-invite', // name of the command
     description: 'Send an invitation link', // description of the command
-    usage: '/waifu-invite', // usage of the cmd
+    usage: '/yaya-invite', // usage of the cmd
     category: 'Info', // cmd category
     developer: false, // false if the command is for public
     type: ApplicationCommandType.ChatInput, // chatinput
@@ -22,7 +22,7 @@ module.exports = {
         try {
             const embed = new EmbedBuilder()
                 .setColor(client.important.MAIN_COLOR)
-                .setDescription(`**Invite me**\n [${client.user.username}](https://waifumusic.ml/)`)
+                .setDescription(`**Invite me**\n [${client.user.username}](https://discord.com/api/oauth2/authorize?client_id=1118147975336697908&permissions=8&scope=bot)`)
 
             await interaction.reply({ embeds: [embed] })
         } catch (e) {

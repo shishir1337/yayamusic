@@ -2,7 +2,7 @@ const { EmbedBuilder, ApplicationCommandType, ButtonBuilder, ButtonStyle, Action
 
 
 module.exports = {
-  name: 'waifu-menu', // name of the command
+  name: 'yaya-menu', // name of the command
   description: 'Select menu', // description of the command
   usage: '/help [command name]', // usage of the command
   category: 'dev', // cmd category
@@ -181,8 +181,8 @@ module.exports = {
         const home_embed = new EmbedBuilder()
           .setColor(client.important.MAIN_COLOR)
           .setAuthor({ name: `${interaction.guild.members.me.displayName} Help menu` })
-          .setDescription('Click the buttons below to see eac category commands or use the drop down menu.\n\n:grey_question:- **Get started by using </help:1014093652135530527>**\n:notes: - **The one and only music bot you need**\n:headphones: - **Built-in DJ System**\n:joy: - **Fun and Anime commands **\n:link: - **Website: __https://waifumusic.ml/__**')
-          .setImage("https://media.giphy.com/media/AdRiVFBcGJ5iZRqUyG/giphy.gif")
+          .setDescription('Click the buttons below to see eac category commands or use the drop down menu.\n\n:grey_question:- **Get started by using </help:1014093652135530527>**\n:notes: - **The one and only music bot you need**\n:headphones: - **Built-in DJ System**\n:joy: - **Fun and Anime commands **\n:link: - **Website: __https://www.shishir1337.com/__**')
+          .setImage("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTYzMmUwZWUyNWQ1NzI0ZWRkZmZhM2QyY2NjMzczY2QzN2U0NmI4NiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/JbqUH9QMPGwRaFUsJF/giphy.gif")
           .setThumbnail(client.user.displayAvatarURL())
 
         const msg = await interaction.reply({ content: `${rmgss}`, embeds: [home_embed], components: [menurow, btnrow, btnrow2], fetchReply: true });
@@ -312,8 +312,8 @@ module.exports = {
           }
         })
       } else {
-        const _slcmd = client.slashCommands.get(`waifu-${slcmd.toLowerCase()}`)
-        if (!_slcmd) return interaction.reply({ content: `${client.emoji.warning} | There is no such __**waifu-${slcmd}**__ exist.\n> Please do not include **waifu-** at the begining if you did.`, ephemeral: true })
+        const _slcmd = client.slashCommands.get(`yaya-${slcmd.toLowerCase()}`)
+        if (!_slcmd) return interaction.reply({ content: `${client.emoji.warning} | There is no such __**yaya-${slcmd}**__ exist.\n> Please do not include **yaya-** at the begining if you did.`, ephemeral: true })
         const slcmdembed = new EmbedBuilder()
           .setColor(client.important.MAIN_COLOR)
           .setTitle(`/${_slcmd.name} more Info`)

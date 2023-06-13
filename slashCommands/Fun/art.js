@@ -8,7 +8,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-art', // name of the command
+  name: 'yaya-art', // name of the command
   description: 'AI Generated art', // description of the command
   category: 'Fun', // cmd category
   developer: false, // false if the command is for public
@@ -74,7 +74,7 @@ module.exports = {
                 { name: `Created At`, value: `${client.emoji.bup}${image.created_at}`, inline: true },
                 { name: `Updated At`, value: `${client.emoji.bup}${image.updated_at}`, inline: true }
               )
-              .setFooter({ text: client.user.username + "| waifumusic.ml" })
+              .setFooter({ text: client.user.username + "| shishir1337.com" })
               .setTimestamp()
           ]
         })
@@ -117,7 +117,7 @@ module.exports = {
                 { name: `Created At`, value: `${client.emoji.bup}${image.created_at}`, inline: true },
                 { name: `Updated At`, value: `${client.emoji.bup}${image.updated_at}`, inline: true }
               )
-              .setFooter({ text: client.user.username + "| waifumusic.ml" })
+              .setFooter({ text: client.user.username + "| shishir1337.com" })
               .setTimestamp()
           ]
         })

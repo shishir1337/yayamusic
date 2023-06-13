@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-playskip', // name of the command
+  name: 'yaya-playskip', // name of the command
   description: 'Plays a Song/Playlist and skips!', // description of the command
   usage: '/playskip [song_name]', // usage of the cmd
   category: 'Queue', // cmd category

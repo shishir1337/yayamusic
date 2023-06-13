@@ -3,9 +3,9 @@ const { EmbedBuilder, ApplicationCommandType } = require("discord.js"); // packa
 const glob = require('glob');
 
 module.exports = {
-    name: 'waifu-reload', // name of the command
+    name: 'yaya-reload', // name of the command
     description: 'restart the commands', // description of the command
-    usage: '/waifu-reload', // usage of the cmd
+    usage: '/yaya-reload', // usage of the cmd
     category: 'dev', // cmd category
     developer: true, // false if the command is for public
     type: ApplicationCommandType.ChatInput, // chatinput

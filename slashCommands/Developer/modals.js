@@ -2,7 +2,7 @@ const { EmbedBuilder, ApplicationCommandType, ActionRowBuilder, ModalBuilder, Te
 
 
 module.exports = {
-    name: 'waifu-modals', // name of the command
+    name: 'yaya-modals', // name of the command
     description: 'Use the new modal!', // description of the command
     category: 'dev', // cmd category
     developer: true, // false if the command is for public

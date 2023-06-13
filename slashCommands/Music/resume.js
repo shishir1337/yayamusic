@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-resume',
+  name: 'yaya-resume',
   description: 'Resume the currently paused song!',
   usage: '/resume', // usage of the cmd
   category: 'Music', // cmd category

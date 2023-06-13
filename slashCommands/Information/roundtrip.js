@@ -6,7 +6,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: "waifu-roundtrip",
+  name: "yaya-roundtrip",
   description: "Check the Roundtrip Latency",
   category: 'Info', // cmd category
   developer: true,

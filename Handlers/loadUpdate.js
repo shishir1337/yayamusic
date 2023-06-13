@@ -62,7 +62,7 @@ function loadUpdate(client) {
             .setColor(client.important.MAIN_COLOR)
             .setAuthor({ name: `No song playing currently.` })
             .setImage(`https://media1.tenor.com/images/5b81f2b847f75b6fe8be15cca644260a/tenor.gif?itemid=27318347`)
-            .setDescription(`>>> [Invite](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=2184310032&scope=bot%20applications.commands) | [Support](https://discord.gg/pD6VPPhWXC) | [Website](https://waifumusic.ml/)`)
+            .setDescription(`>>> [Invite](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=2184310032&scope=bot%20applications.commands) | [Support](https://discord.gg/pD6VPPhWXC) | [Website](https://www.shishir1337.com/)`)
             .setFooter({ text: `Prefix is: / & w!` });
 
         return playMsg.edit({

@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-petpet', // name of the command
+  name: 'yaya-petpet', // name of the command
   description: 'Pet someone', // description of the command
   category: 'Fun', // cmd category
   developer: true, // false if the command is for public

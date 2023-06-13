@@ -6,7 +6,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-leave',
+  name: 'yaya-leave',
   description: 'Disconnect WaifuMusic in a vc',
   usage: '/leave', // usage of the cmd
   category: 'Music', // cmd category

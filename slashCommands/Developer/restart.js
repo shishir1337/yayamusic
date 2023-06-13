@@ -1,7 +1,7 @@
 const { EmbedBuilder, ApplicationCommandType } = require("discord.js"); // packages
 
 module.exports = {
-    name: 'waifu-restart', // name of the command
+    name: 'yaya-restart', // name of the command
     description: 'Set news to waifumusic', // description of the command
     developer: true, // false if the command is for public
     category: 'dev', // cmd category

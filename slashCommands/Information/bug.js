@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-bug', // name of the command
+    name: 'yaya-bug', // name of the command
     description: 'Directly report a bug you found', // description of the command
     usage: '/bug', // usage of the cmd
     category: 'Info', // cmd category

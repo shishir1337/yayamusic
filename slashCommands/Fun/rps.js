@@ -6,10 +6,10 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-rps', // name of the command
+    name: 'yaya-rps', // name of the command
     description: 'Play rock paper scissor with me', // description of the command
     usage: 'Fun', // usage of the cmd
-    category: '/waifu-rps', // cmd category
+    category: '/yaya-rps', // cmd category
     developer: true, // false if the command is for public
     type: ApplicationCommandType.ChatInput, // chatinput
     cooldown: 3000, // cooldown of the commands

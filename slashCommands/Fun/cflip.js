@@ -6,9 +6,9 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-coinflip', // name of the command
+    name: 'yaya-coinflip', // name of the command
     description: 'Play coinflip!', // description of the command
-    usage: '/waifu-coinflip', // usage of the cmd
+    usage: '/yaya-coinflip', // usage of the cmd
     category: 'Fun', // cmd category
     developer: false, // false if the command is for public
     type: ApplicationCommandType.ChatInput, // chatinput

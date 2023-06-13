@@ -11,9 +11,9 @@ const wbc = new WebhookClient({
 const GSetup = new Database("./databases/models/setup.json", { databaseInObject: true });
 
 module.exports = {
-    name: 'waifu-setup', // name of the command
+    name: 'yaya-setup', // name of the command
     description: 'Setup a music channel for waifumusic', // description of the command
-    usage: '/waifu-setup', // usage of the cmd
+    usage: '/yaya-setup', // usage of the cmd
     category: 'Settings', // cmd category
     developer: false, // false if the command is for public
     type: ApplicationCommandType.ChatInput, // chatinput
@@ -34,7 +34,7 @@ module.exports = {
 
         try {
             await interaction.guild.channels.create({
-                name: 'waifu-music',
+                name: 'yaya-music',
                 type: 0,
                 topic: 'A channel for waifumusic! easy to use.',
                 parent_id: interaction.channel.parentId,
@@ -53,7 +53,7 @@ module.exports = {
                 const membed = new EmbedBuilder()
                     .setColor(client.important.MAIN_COLOR)
                     .setTitle(client.emoji.blank + " No playing song currently!")
-                    .setDescription("Start by joining a voice channel and type any `song/link` here!\n╰ Visit: [Waifu Website](https://waifumusic.ml/) | [Invite WaifuMusic](https://waifumusic.ml/pages/invite.html) | [Join support server!](https://discord.com/invite/pD6VPPhWXC)")
+                    .setDescription("Start by joining a voice channel and type any `song/link` here!\n╰ Visit: [Waifu Website](https://www.shishir1337.com/) | [Invite WaifuMusic](https://www.shishir1337.com/pages/invite.html) | [Join support server!](https://discord.com/invite/pD6VPPhWXC)")
 
 
                 await channel.send({ embeds: [gemebd] });

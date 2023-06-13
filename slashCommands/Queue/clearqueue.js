@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-clearqueue', // name of the command
+  name: 'yaya-clearqueue', // name of the command
   description: 'Clear the queue', // description of the command
   usage: '/clearqueue', // usage of the cmd
   category: 'Queue', // cmd category

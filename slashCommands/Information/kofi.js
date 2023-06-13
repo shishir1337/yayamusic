@@ -7,9 +7,9 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-kofi', // name of the command
-  description: 'Support Hachiki on Ko-fi!', // description of the command
-  usage: '/waifu-kofi', // usage of the cmd
+  name: 'yaya-kofi', // name of the command
+  description: 'Support YaYa on Ko-fi!', // description of the command
+  usage: '/yaya-kofi', // usage of the cmd
   category: 'Info', // cmd category
   developer: false, // false if the command is for public
   type: ApplicationCommandType.ChatInput, // chatinput
@@ -25,7 +25,7 @@ module.exports = {
             new EmbedBuilder()
             .setColor('White')
             .setAuthor({ name: 'Ko-fi' })
-            .setDescription('**[Support Hachiki on Ko-fi! ❤️. ko-fi.com/hachiki_hoshino](https://ko-fi.com/hachiki_hoshino)**\n\nSupport Hachiki On Ko-fi. Ko-fi lets you support the people and causes you love with small donations')
+            .setDescription('**[Support YaYa on Ko-fi! ❤️.')
             .setImage(hachiki)
         ] 
     })

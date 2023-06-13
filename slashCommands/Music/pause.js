@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-pause',
+  name: 'yaya-pause',
   description: 'Pause the current playing music',
   usage: '/pause', // usage of the cmd
   category: 'Music', // cmd category

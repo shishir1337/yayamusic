@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-filters', // name of the command
+  name: 'yaya-filters', // name of the command
   description: 'Add a filter to your song', // description of the command
   usage: '/filter [type]', // usage of the cmd
   category: 'Music', // cmd category

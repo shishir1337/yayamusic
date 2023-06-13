@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-shuffle', // name of the command
+  name: 'yaya-shuffle', // name of the command
   description: 'Shuffles (Mixes) The Queue', // description of the command
   usage: '/shuffle', // usage of the cmd
   category: 'Queue', // cmd category

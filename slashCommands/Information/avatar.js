@@ -6,7 +6,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-avatar', // name of the command
+  name: 'yaya-avatar', // name of the command
   description: 'Get user avatar', // description of the command
   category: 'Info', // cmd category
   developer: false, // false if the command is for public

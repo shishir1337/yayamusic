@@ -2,9 +2,9 @@ const { EmbedBuilder, ApplicationCommandType } = require("discord.js"); // packa
 const { check_if_dj } = require("../../Util/functions");
 
 module.exports = {
-  name: 'waifu-playthelist', // name of the command
+  name: 'yaya-playthelist', // name of the command
   description: 'Play your custom playlist that you make', // description of the command
-  usage: '/waifu-playthelist', // usage of the cmd
+  usage: '/yaya-playthelist', // usage of the cmd
   category: 'Playlist', // cmd category
   developer: true, // false if the command is for public
   type: ApplicationCommandType.ChatInput, // chatinput

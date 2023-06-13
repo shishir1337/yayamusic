@@ -11,7 +11,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-nowplaying',
+  name: 'yaya-nowplaying',
   description: 'Shows the current song playing',
   usage: '/nowplaying', // usage of the cmd
   category: 'Music', // cmd category

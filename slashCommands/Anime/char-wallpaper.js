@@ -8,9 +8,9 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-charwall', // name of the command
+    name: 'yaya-charwall', // name of the command
     description: 'Give you a anime wallpaper character', // description of the command
-    usage: '/waifu-wallpaper <character_name>', // usage of the cmd
+    usage: '/yaya-wallpaper <character_name>', // usage of the cmd
     category: 'Anime', // cmd category
     developer: false, // false if the command is for public
     type: ApplicationCommandType.ChatInput, // chatinput

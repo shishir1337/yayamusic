@@ -2,9 +2,9 @@ const { EmbedBuilder, ApplicationCommandType, ButtonBuilder, ActionRowBuilder, B
 const ms = require('ms');
 
 module.exports = {
-    name: 'waifu-stats', // name of the command
+    name: 'yaya-stats', // name of the command
     description: 'Check waifu status', // description of the command
-    usage: '/waifu-stats', // usage of the cmd
+    usage: '/yaya-stats', // usage of the cmd
     category: 'Info', // cmd category
     developer: false, // false if the command is for public
     type: ApplicationCommandType.ChatInput, // chatinput

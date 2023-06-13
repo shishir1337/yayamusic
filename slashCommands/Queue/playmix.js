@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-playmix', // name of the command
+  name: 'yaya-playmix', // name of the command
   description: 'Plays a defined Mix', // description of the command
   usage: '/playmix [what_mix]', // usage of the cmd
   category: 'Queue', // cmd category

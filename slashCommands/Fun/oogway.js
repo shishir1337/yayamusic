@@ -6,7 +6,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-oogway', // name of the command
+  name: 'yaya-oogway', // name of the command
   description: 'The legend is here', // description of the command
   category: 'Fun', // cmd category
   developer: true, // false if the command is for public

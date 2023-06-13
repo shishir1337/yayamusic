@@ -10,9 +10,9 @@ const wbc = new WebhookClient({
 const SStats = new Database("./databases/models/chart.json", { databaseInObject: true });
 
 module.exports = {
-  name: 'waifu-topsongs', // name of the command
+  name: 'yaya-topsongs', // name of the command
   description: 'Display the top songs played', // description of the command
-  usage: '/waifu-topsongs', // usage of the cmd
+  usage: '/yaya-topsongs', // usage of the cmd
   category: 'Info', // cmd category
   developer: true, // false if the command is for public
   type: ApplicationCommandType.ChatInput, // chatinput

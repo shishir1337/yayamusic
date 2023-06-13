@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-qstatus', // name of the command
+  name: 'yaya-qstatus', // name of the command
   description: 'Show the queue status', // description of the command
   usage: '/qstatus', // usage of the cmd
   category: 'Queue', // cmd category

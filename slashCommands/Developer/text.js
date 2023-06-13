@@ -3,7 +3,7 @@ const { EmbedBuilder, ApplicationCommandType } = require("discord.js"); // packa
 const { check_if_dj } = require("../../Util/functions");
 
 module.exports = {
-  name: 'waifu-text', // name of the command
+  name: 'yaya-text', // name of the command
   description: 'Testing reload', // description of the command
   category: 'dev', // cmd category
   developer: true, // false if the command is for public

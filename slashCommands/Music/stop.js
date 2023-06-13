@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-stop',
+  name: 'yaya-stop',
   description: 'Stop the current song and leave the voice channel.',
   usage: '/stop', // usage of the cmd
   category: 'Music', // cmd category

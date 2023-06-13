@@ -12,7 +12,7 @@ const GSetup = new Database("./databases/models/setup.json", { databaseInObject:
 
 
 module.exports = {
-  name: 'waifu-play',
+  name: 'yaya-play',
   description: 'Play a song from YouTube, SoundCloud, & Spotify',
   usage: '/play [song_name]', // usage of the cmd
   category: 'Music', // cmd category

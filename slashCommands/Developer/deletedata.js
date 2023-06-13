@@ -1,7 +1,7 @@
 const { EmbedBuilder, ApplicationCommandType } = require("discord.js"); // packages
 
 module.exports = {
-  name: 'waifu-deletedata', // name of the command
+  name: 'yaya-deletedata', // name of the command
   description: 'delete all the data', // description of the command
   usage: '/delete', // usage of the cmd
   category: 'dev', // cmd category

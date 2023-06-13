@@ -8,7 +8,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-news', // name of the command
+  name: 'yaya-news', // name of the command
   description: 'Show the latest bot news', // description of the command
   usage: '/news', // usage of the cmd
   category: 'Info', // cmd category
@@ -37,10 +37,10 @@ module.exports = {
         .setColor(client.important.MAIN_COLOR)
         .setTitle('WaifuMusic News!')
         .addFields(
-          // { name: 'Date Published', value: `╰${moment(guildDB.time).format("dddd, MMMM Do YYYY")} - *__[\`(${moment(guildDB.time).fromNow()})\`](https://waifumusic.ml)__*` },
+          // { name: 'Date Published', value: `╰${moment(guildDB.time).format("dddd, MMMM Do YYYY")} - *__[\`(${moment(guildDB.time).fromNow()})\`](https://www.shishir1337.com)__*` },
           { name: 'Latest News', value: `╰${guildDB.news}` }
         )
-        .setFooter({ text: `WaifuMusic | waifumusic.ml`, iconURL: client.user.displayAvatarURL() })
+        .setFooter({ text: `WaifuMusic | shishir1337.com`, iconURL: client.user.displayAvatarURL() })
         .setTimestamp();
       await interaction.reply({ embeds: [embed] })
     } catch (e) {

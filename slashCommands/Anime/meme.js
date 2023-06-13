@@ -12,7 +12,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-animeme', // name of the command
+  name: 'yaya-animeme', // name of the command
   description: 'Get random anime meme', // description of the command
   category: 'Anime', // cmd category
   developer: false, // false if the command is for public

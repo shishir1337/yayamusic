@@ -8,7 +8,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-tictactoe', // name of the command
+  name: 'yaya-tictactoe', // name of the command
   description: 'Play TicTacToe', // description of the command
   usage: '/waitcu-tictactoe <user>', // usage of the cmd
   category: 'Fun', // cmd category

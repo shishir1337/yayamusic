@@ -6,7 +6,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-report', // name of the command
+    name: 'yaya-report', // name of the command
     description: 'Directly report a user', // description of the command
     usage: '/report', // usage of the cmd
     category: 'Info', // cmd category
@@ -29,11 +29,11 @@ module.exports = {
                 .setLabel("What is the name of the user?")
                 .setRequired(true)
                 .setStyle(TextInputStyle.Short) // style = Short & Paragraph
-                .setPlaceholder("Hachiki#3819")
+                .setPlaceholder("Shishir Plays YT#3667")
             const report_user_id = new TextInputBuilder()
                 .setCustomId('report_user3')
                 .setLabel("What is the user ID?")
-                .setPlaceholder("939867069070065714")
+                .setPlaceholder("713390802021122231")
                 .setMaxLength(18)
                 .setRequired(true)
                 .setStyle(TextInputStyle.Short) // style = Short & Paragraph

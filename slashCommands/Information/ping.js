@@ -6,7 +6,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-ping', // name of the command
+  name: 'yaya-ping', // name of the command
   description: 'returns websocket ping', // description of the command
   usage: '/ping', // usage of the cmd
   category: 'Info', // cmd category

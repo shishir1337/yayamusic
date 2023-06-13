@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-    name: 'waifu-dj', // name of the command
+    name: 'yaya-dj', // name of the command
     description: 'Set the DJ role to your server', // description of the command
     usage: '/dj [add/remove role]', // usage of the cmd
     category: 'Settings', // cmd category

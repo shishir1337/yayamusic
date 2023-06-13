@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-seek', // name of the command
+  name: 'yaya-seek', // name of the command
   description: 'Rewind the current song to the specified position!', // description of the command
   usage: '/seek [time]', // usage of the cmd
   category: 'Music', // cmd category

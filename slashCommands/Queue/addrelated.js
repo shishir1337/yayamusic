@@ -7,7 +7,7 @@ const wbc = new WebhookClient({
 });
 
 module.exports = {
-  name: 'waifu-addrelated', // name of the command
+  name: 'yaya-addrelated', // name of the command
   description: 'Add a similar/related song to the current Song!', // description of the command
   usage: '/addreleated', // usage of the cmd
   category: 'Queue', // cmd category
